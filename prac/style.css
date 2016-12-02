@@ -1,0 +1,15 @@
+body{
+  width:100%;
+  min-height:100%;
+  padding:0;
+  margin:0;
+  font-size:15px;
+  color:blue;
+  
+}
+p{
+ color:green;
+ displal:block;
+ margin:0 auto;
+ width:980px;
+}

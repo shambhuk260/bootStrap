@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div id="frm" style="    width: 400px;
+    height: 450px;
+    border: 1px black solid;
+    margin-left: 350px;
+    padding: 15px;">
+    <p><span class="error">* required field.</span></p>
+
+    <form action="process.php" method="POST">
+        <fieldset>
+            <legend >Personal Information</legend>
+
+            <table>
+
+                <tr>
+                    <td><label>Username:</label></td>
+                    <td><input type="text" id="user" name="user"></td>
+                </tr>
+
+                <br><br>
+
+
+                <tr>
+                    <td><label>Password:</label>
+                    <td><input type="Password" id="pass" name="pass"></td>
+                </tr>
+
+
+
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Website:</label></td>
+                    <td><input type="text" name="website"></td>
+                </tr>
+
+
+                <tr>
+                    <td><label>Comment:</label></td>
+                    <td><textarea name="comment" rows="5" cols="40"></textarea></td>
+                </tr>
+            </table>
+
+            <tr>
+                <td><label>Gender:</label></td>
+                <td><input type="radio" name="gender" value="female">Female</td>
+                <td><input type="radio" name="gender" value="male">Male</td>
+            </tr>
+
+
+            <p>
+
+                <input type="submit" id="btm" value="login">
+            </p>
+
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>

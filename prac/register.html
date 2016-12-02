@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+
+<body>
+<nav>
+    <a href="/html/">HTML</a> |
+    <a href="/css/">CSS</a> |
+    <a href="/js/">JavaScript</a> |
+    <a href="/jquery/">jQuery</a>
+</nav>
+
+
+<div style="    width: 600px;
+    height: 1000px;
+    border: 1px black solid;
+    margin-left: 100px;
+    padding: 15px;">
+
+    <form name="regis_form" method="get" style="background-color: aquamarine">
+
+        <fieldset>
+
+
+
+            <legend><b>Registration Form</b></legend>
+            <label>First Name:</label>
+            <input type="text" name="f_name" id="f_name" size="30" maxlength="15"><br/><br/>
+            <label>Last Name:</label>
+            <input type="text"><br/><br/>
+            <label>User Name:</label>
+            <input type="text"><br/><br/>
+            <label>Password:</label>
+            <input type="password" name="password" id="password" maxlength="15"><br/><br/>
+            <label>Re-type it:</label>
+            <input type="password"><br/><br/>
+            <label>Email:</label>
+            <input type="text"><br/><br/>
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="gender" value="Male">Male
+            <input type="radio" name="gender"id="gender" value="Female">Female
+            <br/><br/>
+            <label>Date of Birth:</label>
+            <select name="Month">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+                <option>Jun</option>
+                <option>July</option>
+                <option>Aug</option>
+                <option>sep</option>
+                <option>oct</option>
+                <option>Nov</option>
+                <option>Dec</option>
+                <option selected>Month</option>
+            </select>
+            <select name="Day">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>15</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+                <option selected>Day</option>
+            </select>
+
+            <input type="text" placeholder="YYYY"><br/><br/>
+            <label>Hobbies:</label>
+            <input type="checkbox" name="hobbies" id="hobbies1" value="cricket" checked="checked">cricket
+            <input type="checkbox" name="hobbies" id="hobbies2" value="Football">Football
+            <input type="checkbox" name="hobbies" id="hobbies3" value="web surfing">web surfing
+            <input type="checkbox" name="hobbies" id="hobbies4" value="Listening song">Chess
+
+            <br/><br/>
+
+
+            <label>Image File</label>
+            <input type="file" size="30" accept="image/*" ><br/><br/>
+            <input type="button" name="visit" id="visit" value="Visit Google" onclick="window.open('https://www.google.com/');">
+
+            <br/><br/>
+
+            <label>Your Registation Code is:</label>
+            <input type="text" name="reg_code" id="reg_code"value="S001 "  disabled="disabled"><br/><br/>
+
+
+            <br/><br/>
+
+            <input type="checkbox" name="term_con" id="term_con" checked="checked"><b>Yes,I accept the terms and conditions of this site.</b><br/><br/>
+            <input type="submit" value="Regiter">
+            <input type="reset" value="Clear all">
+        </fieldset>
+
+        <br/><br/>
+
+
+        <fieldset>
+            <legend><b>Sign in Form</b></legend>
+            <label>User Name:</label>
+            <input type="text"><br/><br/>
+            <label>Password:</label>
+            <input type="password"><br/><br/>
+            <input type="submit" value="Sign in">
+        </fieldset>
+
+        <br/><br/>
+
+
+        <fieldset >
+            <legend><b>Enquiry</b></legend>
+            <label>Full Name</label>
+            <input type="text"><br/><br/>
+            <label>Your Email</label>
+            <input type="text"><br/><br/>
+            <label>Your Overview in brif</label><br/><br/>
+            <textarea name="message" id="message" row="8" col="50" placeholder="Overview"></textarea><br/><br/>
+
+
+        </fieldset>
+
+    </form>
+</div>
+</body>
+
+</html>
